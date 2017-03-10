@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   It allowed me to rule out all the stuff that hadn't changed, and to
+	concentrate on just the differences.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    1. Can go back to the last version that worked.
+	2. If an old version had a feature that you removed but want to add back in could go back 
+	   and copy the code instead of having to rewrite it.
+	
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros
+	1. Allow you to choose logical saving points.
+	2. Allow/Force yo to make comments about each version.
+	Cons
+	1. In the event of a computer crash/electrical problem, etc. might lose everything
+	2. Any other accidental closing/deleting before a save results in lost code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    They serve different purposes. Git is for projects that may consist of a number
+	of interrelated parts/files, etc. GDocs is for a simplified writing program, that
+	saves changes mostly to avoid catastrophic loss, and to allow simple coordination
+	between multiple people.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	Git Log allows you to see all of the commits that have been made to a file/repository. 
+	        It also allows you to see each commit message.
+	Git diff allows you to compare two different commits. And see exactly what changes have
+			been made between the two versions.
+	
+How might using version control make you more confident to make changes that
+could break something?
+
+    The worst thing that would happen would be that you would have to go back to a previous commit and
+	start over. So if an error was introduced that you could not find, could easily be deleted
+	by going back to a commit from before the error and beginning again from that point.	
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I am going to use it for tracking my projects in CS50x and Learning to Program.
+	I may also begin to use it to track changes in CBS reports
+	
