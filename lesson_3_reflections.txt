@@ -24,3 +24,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	I would probably use Google docs, especially for something like recipes. Getting up and running on GDocs would 
 	be much easier. However, tracking and finding changes over a long period of time would be easier with GH. 
 	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Making changes to a branch allows others to comment on your changes. In addition, by not constantly changing the master, 
+	you won't have to deal with as many changes that occur and only deal with conflicts once, rather than each time a change is made.
+	
+	Benefits of using branchs is listed above. Only updating the master has a much simpler workflow, and is probably fine for single person
+	projects.
+	
