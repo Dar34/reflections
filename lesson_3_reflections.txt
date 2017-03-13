@@ -19,3 +19,8 @@ What is the benefit of having a copy of the last known state of the remote store
 	1. You can tell how far ahead it you are, in commits
 	2. If you pull/push updates it is easier to find the conflicts if you know where to start
 	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I would probably use Google docs, especially for something like recipes. Getting up and running on GDocs would 
+	be much easier. However, tracking and finding changes over a long period of time would be easier with GH. 
+	
